@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Proyecto Seguimiento veterinaria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Link de la web [Link ](https://veterinaria-turnitos.netlify.app/)
 
-## Available Scripts
+## Qué use?
 
-In the project directory, you can run:
+- Taildwind
+- ReactJs
+- uuid
 
-### `npm start`
+## Home de la página
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Al entrar a la home nos encontramos con un formulario para llenar ciertos campos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- NOMBRE DE LA MASCOTA:
+- NOMBRE DEL PROPIETARIO:
+- CORREO ELECTRONICO:
+- FECHA DE INGRESO:
+- SINTOMAS:
 
-### `npm test`
+[![N|Solid](https://i.ibb.co/LSYCxxK/form.png)](https://veterinaria-turnitos.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Si quisieramos agregar un paciente sin ningún dato contamos con validaciones
 
-### `npm run build`
+[![N|Solid](https://i.ibb.co/GR2Dz8X/err.png)](https://veterinaria-turnitos.netlify.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cuando llenamos los campos correctamente, podemos observar al lado del formulario un listado de los mismos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contamos con 2 botones para borrar el registro, o editarlo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[![N|Solid](https://i.ibb.co/d2zMtjP/listado.png)](https://veterinaria-turnitos.netlify.app/)
 
-### `npm run eject`
+## Al presionar el botón editar contamos nos servimos del mismo formulario que se va a autollenar para editar lo que necesitemos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contamos tambien con un botón para cancelar la edición en caso que lo necesitemos o porque sin querer lo tocamos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![N|Solid](https://i.ibb.co/K5nfyDK/ed.png)](https://veterinaria-turnitos.netlify.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Los datos son persistentes, ya que se guardan en localstorage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![N|Solid](https://i.ibb.co/KbvN7zD/local.png)](https://veterinaria-turnitos.netlify.app/)
 
-## Learn More
+Pasos para levantar app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+git clone https://github.com/JonathanAGonzalez/veterinaria-tailwind.git
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Gracias por tomarte el tiempo y ver mi proyecto!🙌
